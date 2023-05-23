@@ -1,0 +1,74 @@
+.component-container {
+  width: 45%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+}
+.component-text {
+  width: 40%;
+  font-size: 25px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+}
+.component-text1 {
+  font-size: 12px;
+}
+.component-text4 {
+  font-size: 12px;
+}
+.component-text7 {
+  font-size: 12px;
+}
+.component-text8 {
+  font-size: 12px;
+}
+.component-root-class-name {
+  margin: var(--dl-space-space-oneandhalfunits);
+}
+.component-root-class-name1 {
+  margin: var(--dl-space-space-oneandhalfunits);
+}
+.component-root-class-name2 {
+  margin: var(--dl-space-space-oneandhalfunits);
+}
+.component-root-class-name3 {
+  margin: var(--dl-space-space-oneandhalfunits);
+}
+@media(max-width: 1200px) {
+  .component-text {
+    width: 38%;
+  }
+  .component-ul {
+    width: 360px;
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+  .component-text1 {
+    font-size: 20px;
+  }
+  .component-text4 {
+    font-size: 20px;
+  }
+  .component-text7 {
+    font-size: 20px;
+  }
+  .component-text8 {
+    font-size: 20px;
+  }
+}
+@media(max-width: 991px) {
+  .component-root-class-name {
+    width: 40%;
+  }
+  .component-root-class-name1 {
+    width: 40%;
+  }
+  .component-root-class-name2 {
+    width: 40%;
+  }
+  .component-root-class-name3 {
+    width: 40%;
+  }
+}

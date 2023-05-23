@@ -1,0 +1,63 @@
+.component1-container {
+  width: 45%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+.component1-text {
+  width: 40%;
+  font-size: 25px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+}
+.component1-text1 {
+  font-size: 12px;
+}
+.component1-li1 {
+  font-size: 12px;
+}
+.component1-root-class-name {
+  margin: var(--dl-space-space-oneandhalfunits);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+}
+.component1-root-class-name1 {
+  margin: var(--dl-space-space-oneandhalfunits);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+}
+.component1-root-class-name2 {
+  margin: var(--dl-space-space-oneandhalfunits);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+}
+.component1-root-class-name3 {
+  margin: var(--dl-space-space-oneandhalfunits);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+}
+@media(max-width: 1200px) {
+  .component1-ul {
+    width: 360px;
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+  .component1-text1 {
+    font-size: 20px;
+  }
+  .component1-text2 {
+    font-size: 20px;
+  }
+}
+@media(max-width: 991px) {
+  .component1-root-class-name {
+    width: 40%;
+  }
+  .component1-root-class-name1 {
+    width: 40%;
+  }
+  .component1-root-class-name2 {
+    width: 40%;
+  }
+  .component1-root-class-name3 {
+    width: 40%;
+  }
+}
