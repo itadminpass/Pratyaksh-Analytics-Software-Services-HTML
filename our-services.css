@@ -19,9 +19,13 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
+.our-services-navlink {
+  display: contents;
+}
 .our-services-logo {
   width: 200px;
   height: 75px;
+  text-decoration: none;
 }
 .our-services-desktop-menu {
   display: flex;
@@ -34,10 +38,10 @@
   align-items: center;
   flex-direction: row;
 }
-.our-services-navlink {
+.our-services-navlink1 {
   text-decoration: none;
 }
-.our-services-navlink1 {
+.our-services-navlink2 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
@@ -193,7 +197,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.our-services-navlink2 {
+.our-services-navlink3 {
   color: var(--dl-color-gray-white);
   font-size: 0.75rem;
   transition: 0.3s;
@@ -201,7 +205,7 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.our-services-navlink2:hover {
+.our-services-navlink3:hover {
   color: var(--dl-color-gray-black);
   background-color: transparent;
 }
@@ -435,10 +439,14 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
+.our-services-navlink4 {
+  display: contents;
+}
 .our-services-image1 {
   height: 4rem;
   align-self: stretch;
   object-fit: cover;
+  text-decoration: none;
 }
 .our-services-icon-group1 {
   display: flex;
@@ -472,10 +480,23 @@
     font-style: normal;
     font-weight: 500;
   }
-  .our-services-navlink2 {
+  .our-services-navlink3 {
     color: var(--dl-color-gray-white);
     font-size: 0.75rem;
     background-color: var(--dl-color-gray-black);
+  }
+  .our-services-text11 {
+    padding: var(--dl-space-space-oneandhalfunits);
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+  }
+  .our-services-text27 {
+    text-align: center;
+  }
+  .our-services-text28 {
+    text-align: center;
   }
 }
 @media(max-width: 991px) {
@@ -516,7 +537,7 @@
   .our-services-desktop-menu {
     display: none;
   }
-  .our-services-navlink1 {
+  .our-services-navlink2 {
     margin-left: var(--dl-space-space-unit);
   }
   .our-services-text {
@@ -545,6 +566,7 @@
   }
   .our-services-pricing-card {
     width: 100%;
+    height: 439px;
     max-width: 450px;
     align-items: center;
     margin-right: 0px;
@@ -552,6 +574,7 @@
   }
   .our-services-pricing-card1 {
     width: 100%;
+    height: 556px;
     max-width: 450px;
     align-items: center;
     margin-right: 0px;
@@ -599,7 +622,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .our-services-navlink2 {
+  .our-services-navlink3 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
@@ -617,7 +640,11 @@
     flex-direction: column;
   }
   .our-services-image1 {
+    width: 255px;
+    height: 99px;
+    align-self: center;
     margin-bottom: var(--dl-space-space-unit);
+    padding-bottom: 0px;
   }
   .our-services-text30 {
     margin-left: 0px;

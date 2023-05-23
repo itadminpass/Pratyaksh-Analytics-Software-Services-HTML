@@ -19,9 +19,13 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
+.contact-us-navlink {
+  display: contents;
+}
 .contact-us-logo {
   width: 200px;
   height: 75px;
+  text-decoration: none;
 }
 .contact-us-desktop-menu {
   display: flex;
@@ -33,10 +37,10 @@
   align-items: center;
   flex-direction: row;
 }
-.contact-us-navlink {
+.contact-us-navlink1 {
   text-decoration: none;
 }
-.contact-us-navlink1 {
+.contact-us-navlink2 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
@@ -475,10 +479,14 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
+.contact-us-navlink3 {
+  display: contents;
+}
 .contact-us-image1 {
   height: 4rem;
   align-self: stretch;
   object-fit: cover;
+  text-decoration: none;
 }
 .contact-us-icon-group1 {
   display: flex;
@@ -530,7 +538,7 @@
   .contact-us-desktop-menu {
     display: none;
   }
-  .contact-us-navlink1 {
+  .contact-us-navlink2 {
     margin-left: var(--dl-space-space-unit);
   }
   .contact-us-text {
