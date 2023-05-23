@@ -334,6 +334,7 @@
   font-weight: 700;
   border-width: 0px;
   margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .home-burger-menu {
   display: none;
