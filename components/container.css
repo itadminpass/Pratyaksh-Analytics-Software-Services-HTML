@@ -67,3 +67,8 @@
     width: 40%;
   }
 }
+@media(max-width: 479px) {
+  .container-root-class-name {
+    width: 90%;
+  }
+}

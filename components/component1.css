@@ -61,3 +61,8 @@
     width: 40%;
   }
 }
+@media(max-width: 479px) {
+  .component1-root-class-name {
+    width: 90%;
+  }
+}
